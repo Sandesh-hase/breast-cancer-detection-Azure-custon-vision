@@ -2,7 +2,8 @@
 
 This project uses Azure Custom Vision to perform object detection on breast cancer images. It predicts and visualizes bounding boxes for detected regions in input images.
 
-![pil_annotated](https://github.com/user-attachments/assets/4d4218f7-b7d7-4da3-8c66-6d1bbd819a7b)
+
+![object_detection_result](https://github.com/user-attachments/assets/7e471369-2b50-4778-8050-3aaf2df4f56b)
 
 ## Features
 
