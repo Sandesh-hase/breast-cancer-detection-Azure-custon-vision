@@ -12,12 +12,26 @@ This project uses Azure Custom Vision to perform object detection on breast canc
 
 1. **Clone the repository** and navigate to the project directory.
 
-2. **Install dependencies**:
+2. **Create a virtual environment** (recommended):
+   ```
+   py -3 -m venv venv
+   ```
+   Activate it:
+   - On Windows:
+     ```
+     venv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```
+     source venv/bin/activate
+     ```
+
+3. **Install dependencies**:
    ```
    pip install -r requirements.txt
    ```
 
-3. **Set up environment variables**:
+4. **Set up environment variables**:
 
    Create a `.env` file in the project root with the following content:
    ```
@@ -27,7 +41,7 @@ This project uses Azure Custom Vision to perform object detection on breast canc
    PUBLISHED_NAME=your_published_model_name
    ```
 
-4. **Prepare test images**:
+5. **Prepare test images**:
 
    Place your test images in the `data/test/` directory.
 
